@@ -1,0 +1,199 @@
+:root {
+    --c-brand: #4D5AE5;
+    --c-ocean: #404BBF;
+    --c-adress-link: #434455;
+    --c-white: #FFFFFF;
+    --c-background: #2E2F42;
+    --c-background-modal: #FCFCFC;
+    --c-team-background: #F4F4FD;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    color:var(--c-brand);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: var(--c-background);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: var(--c-background);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+    color: var(--c-ocean);
+}
+
+.adress-link {
+    color: var(--c-adress-link);
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.adress-link:hover, adress-link:active, .adress-link:focus {
+    color: var(--c-ocean);
+}
+
+.hero-section {
+    background-color: var(--c-background);
+}
+
+.hero-title {
+    color: var(--c-white);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+
+button {
+    font-family: inherit;
+}
+
+.hero-button {
+    color: var(--c-white);
+    background-color: var(--c-brand);
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em
+}
+
+.hero-button:hover, .hero-button:focus {
+    color: var(--c-white);
+    background-color: var(--c-ocean);
+}
+/* END Hero section */
+
+/* START Goals section */
+.goals-section {
+    background-color: var(--c-white);
+}
+.goals-section-title {
+    color: var(--c-background);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.goals-title {
+    color: var(--c-background);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.goals-text {
+    color: var(--c-adress-link);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.our-team-section {
+    background-color: var(--c-team-background);
+}
+.our-team-title {
+    color: var(--c-background);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.our-team-list {
+    background-color: var(--c-white);
+}
+.our-team-item {
+    color: var(--c-background);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+.our-team-text {
+    color: var(--c-adress-link);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* END Our team section */
+
+/* START Our portfolio section */
+.our-portfolio-section {
+    background-color: var(--c-white);
+}
+.our-portfolio-title {
+    color: var(--c-background);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.our-portfolio-list {
+    background-color: var(--c-white);
+}
+.our-portfolio-items {
+    color: var(--c-background);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+.our-portfolio-text {
+    color: var(--c-adress-link);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* END Our portfolio section */
+
+/* START footer */
+.footer-section {
+    background-color: var(--c-background);
+}
+.footer-logo-accent {
+    color: var(--c-team-background);
+}
+.footer-text {
+    color: var(--c-team-background);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
