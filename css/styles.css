@@ -87,6 +87,7 @@ a {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 .header-nav {
     display: flex;
@@ -184,9 +185,6 @@ button {
 /* END Hero section */
 
 /* START Goals section */
-.goals-section {
-    margin-bottom: 120px;
-}
 .goals-section-title {
     color: var(--c-background);
     text-align: center;
@@ -217,8 +215,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.our-team-section {
-    padding: 120px 0;
+.our-team-inner {
     background-color: var(--c-team-background);
 }
 .our-team-title {
