@@ -91,13 +91,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 24px;
 }
 .nav {
     display: flex;
-    gap: 76px;
     align-items: center;
-    flex-grow: 1;
 }
 
 .nav-menu {
@@ -220,7 +217,10 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+.team-section {
+    padding: 120px 0;
+    background-color: var(--c-team-background);
+}
 .our-team-title {
     color: var(--c-background);
     text-align: center;
@@ -300,7 +300,6 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 8px;
-    padding-left: 16px;
 }
 
 .our-portfolio-text {
@@ -308,8 +307,6 @@ button {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
-    padding-left: 16px;
 }
 /* END Our portfolio section */
 
