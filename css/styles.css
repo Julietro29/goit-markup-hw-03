@@ -167,6 +167,7 @@ button {
     min-width: 169px;
     height: 56px;
     border: none;
+    margin: 0 auto;
     color: var(--c-white);
     background-color: var(--c-brand);
     cursor: pointer;
