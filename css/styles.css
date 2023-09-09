@@ -56,7 +56,7 @@ img {
 }
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -133,7 +133,10 @@ a {
     letter-spacing: 0.02em;
     display: inline-block;
 }
-
+.adress-list {
+    display: flex;
+    gap: 40px;
+}
 .adress-link:hover,
 adress-link:active,
 .adress-link:focus {
@@ -155,20 +158,17 @@ adress-link:active,
     margin-bottom: 48px;
     max-width: 496px;
 }
-.hero-action {
-    display: flex;
-    justify-content: center;
-}
 button {
     font-family: inherit;
+
 }
 .hero-button {
     display: block;
     min-width: 169px;
     height: 56px;
+    border: none;
     color: var(--c-white);
     background-color: var(--c-brand);
-    border: none;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
