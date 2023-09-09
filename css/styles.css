@@ -133,7 +133,7 @@ a {
     letter-spacing: 0.02em;
     display: inline-block;
 }
-.adress-list {
+.list {
     display: flex;
     gap: 40px;
 }
