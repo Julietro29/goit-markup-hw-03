@@ -37,7 +37,6 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin-bottom: 32px;
 }
 
 .visually-hidden {
@@ -72,6 +71,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-accent {
@@ -81,13 +81,14 @@ img {
 a {
     text-decoration: none;
 }
-
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
 .header-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 .header-nav {
     display: flex;
@@ -96,7 +97,7 @@ a {
     flex-grow: 1;
 }
 
-.nav-list {
+.nav-menu {
     display: flex;
     gap: 40px;
     flex-grow: 1;
@@ -115,9 +116,6 @@ a {
 .nav-link:active,
 .nav-link:focus {
     color: var(--c-ocean);
-}
-.adress-inner {
-    display: flex;
 }
 .adress-list {
     display: flex;
@@ -139,10 +137,7 @@ adress-link:active,
     color: var(--c-ocean);
 }
 .hero-section {
-    padding-bottom: 120px;
-}
-.hero-inner {
-    padding: 188px 316px 188px;
+    padding: 188px 0;
     background-color: var(--c-background);
 }
 .hero-title {
@@ -155,6 +150,7 @@ adress-link:active,
     text-transform: capitalize;
     margin: 0 auto;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 .hero-action {
     display: flex;
@@ -164,6 +160,9 @@ button {
     font-family: inherit;
 }
 .hero-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
     color: var(--c-white);
     background-color: var(--c-brand);
     border: none;
@@ -199,7 +198,9 @@ button {
     display: flex;
     gap: 24px;
 }
-
+.goals-inner-item {
+    width: calc((100% - 72px) / 4);
+}
 .goals-title {
     color: var(--c-background);
     font-size: 20px;
@@ -207,7 +208,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .goals-text {
     color: var(--c-adress-link);
@@ -215,9 +216,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.our-team-inner {
-    background-color: var(--c-team-background);
-}
+
 .our-team-title {
     color: var(--c-background);
     text-align: center;
@@ -234,9 +233,13 @@ button {
     justify-content: center;
 }
 .our-team-item {
+    width: calc((100% - 72px) / 4);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--c-white);
+}
+.our-team-person {
+    padding: 32px 0;
 }
 .our-team-item-title {
     color: var(--c-background);
@@ -246,7 +249,7 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     align-items: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     text-align: center;
 }
 .our-team-text {
@@ -254,7 +257,6 @@ button {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
     text-align: center;
 }
 /* END Our team section */
@@ -273,6 +275,7 @@ button {
 .our-portfolio-list {
     display: flex;
     gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
     align-content: center;
     text-align: start;
@@ -281,8 +284,9 @@ button {
     width: calc((100% - 48px) / 3);
 }
 .our-portfolio-card {
+    padding: 32px 16px;
     border-top: none;
-    border-bottom: 1px solid var(--c-cornflower);
+    border: 1px solid #e7e9fc;
 }
 .our-portfolio-items {
     color: var(--c-background);
@@ -307,7 +311,8 @@ button {
 
 /* START footer */
 .footer-section {
-    padding: 102px 15px 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: var(--c-background);
 }
 .footer-logo {
@@ -319,13 +324,14 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-accent {
     color: var(--c-team-background);
 }
 .footer-text {
-    padding-top: 18px;
     color: var(--c-team-background);
     font-weight: 400;
     line-height: 1.5;
