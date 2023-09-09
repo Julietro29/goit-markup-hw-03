@@ -8,7 +8,6 @@
     --c-team-background: #F4F4FD;
     --c-cornflower: #E7E9FC;
 }
-
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -90,7 +89,7 @@ a {
     justify-content: space-between;
     gap: 24px;
 }
-.header-nav {
+.nav {
     display: flex;
     gap: 76px;
     align-items: center;
